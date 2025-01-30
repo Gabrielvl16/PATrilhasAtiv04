@@ -1,0 +1,30 @@
+using System;
+
+namespace b
+{
+	class Program
+	{
+		public static void Main()
+		{
+			// Recebendo dados do úsuario
+			Console.WriteLine("Digite a sua idade: ");
+			int idade = int.Parse(Console.ReadLine());
+			
+			Console.WriteLine("Digite se possue carteira ou não: ");
+			string simCarteira = Console.ReadLine().ToLower();
+			
+			// Verificando se os dados são verdadeiros ou falso
+			if (idade >= 18 && simCarteira == "sim")
+			{
+				Console.WriteLine("Voçe pode dirigir!");
+			}
+			else 
+			{
+				Console.WriteLine("Voçe não pode dirigir!");
+			}
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
