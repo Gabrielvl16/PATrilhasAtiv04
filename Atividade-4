@@ -1,0 +1,28 @@
+using System;
+
+namespace b
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.WriteLine("Você e assinante de um serviço streaming?");
+			string simStreaming = Console.ReadLine().ToLower();
+			
+			Console.WriteLine("Você ja assistiu One Piece?");
+			string simSerie = Console.ReadLine().ToLower();
+			
+			if (simStreaming == "sim" && simSerie == "sim")
+			{
+				Console.WriteLine("Ótimo, agora você pode assistir à nova temporada!");
+			}
+			else 
+			{
+				Console.WriteLine("Que pena!");
+			}
+				
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
