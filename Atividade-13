@@ -1,0 +1,27 @@
+using System;
+
+namespace b
+{
+	class Program
+	{
+		public static void Main()
+		{
+			// Recebendo resposta do úsuario
+			Console.WriteLine("Você é um membro inativo de um clube?");
+			string resposta = Console.ReadLine().ToLower();
+			
+			// Conferindo resposta do úsuario
+			if (resposta == "sim")
+			{
+				Console.WriteLine("Ok aproveite os beneficios!");
+			}
+			else
+			{
+				Console.WriteLine("Por favor, atualize sua inscrição para continuar usufruindo dos benefícios do clube.");
+			}
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
