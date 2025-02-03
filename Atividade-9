@@ -1,0 +1,26 @@
+using System;
+
+namespace b
+{
+	class Program
+	{
+		public static void Main()
+		{
+			// Recebendo nome do úsuario
+			Console.WriteLine("Digite seu nome:");
+			string nomeUsuario = Console.ReadLine();
+			
+			// Conferindo se nome do úsuario está correto ou não
+			if ( nomeUsuario == "Wilson" || nomeUsuario == "Gloria")
+			{
+				Console.WriteLine("Bem vindo de volta!");
+			}
+			else
+			{
+				Console.WriteLine("O nome do úsuario não está correto!");
+			}
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
