@@ -16,11 +16,11 @@ namespace b
 			// Verificando se os dados são verdadeiros ou falso
 			if (idade >= 18 && simCarteira == "sim")
 			{
-				Console.WriteLine("Voçe pode dirigir!");
+				Console.WriteLine("Você pode dirigir!");
 			}
 			else 
 			{
-				Console.WriteLine("Voçe não pode dirigir!");
+				Console.WriteLine("Você não pode dirigir!");
 			}
 			
 			Console.Write("Press any key to continue . . . ");
