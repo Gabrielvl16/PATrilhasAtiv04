@@ -1,0 +1,27 @@
+using System;
+
+namespace b
+{
+	class Program
+	{
+		public static void Main()
+		{
+			// Conferindo se úsuario deseja adicional 
+			Console.WriteLine("Você deseja adicionar açúcar ou leite ao seu café");
+			string simAdicional = Console.ReadLine().Trim().ToLower();
+			
+			// Verificando se a condição e verdadeira ou falsa 
+			if (simAdicional == "açúcar" && simAdicional == "leite") 
+			{
+			    Console.WriteLine("Café com adicional sendo preparado!");
+			}
+			else 
+			{
+				Console.WriteLine("Café sem adicional sendo preparado!");
+			}
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
