@@ -1,0 +1,27 @@
+using System;
+
+namespace b
+{
+	class Program
+	{
+		public static void Main()
+		{
+			// Recebendo resposta do úsuario
+			Console.WriteLine("Digite um número");
+			string conferindoRobo = Console.ReadLine().ToLower();
+			
+			// Conferindo se úsuario não é um robo
+			if (conferindoRobo == "sim")
+			{
+				Console.WriteLine("O úsuario é um robo!");
+			}
+			else
+			{
+				Console.WriteLine("Prove que você não e um robo!");
+			}
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
