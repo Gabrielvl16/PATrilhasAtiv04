@@ -1,0 +1,27 @@
+using System;
+
+namespace b
+{
+	class Program
+	{
+		public static void Main()
+		{
+			// Recebendo valor do úsuario
+			Console.WriteLine("Digite um número:");
+			float numero = float.Parse(Console.ReadLine());
+			
+			// Conferindo se o número é divisivel por 3 ou por 5
+			if (numero % 3 == 0 || numero % 5 == 0)
+			{
+				Console.WriteLine("Seu número e divisivel por 3 ou por 5!");
+			}
+			else 
+			{
+				Console.WriteLine("O seu número não e divisivel por 3 é por 5!");
+			}
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
