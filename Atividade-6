@@ -11,7 +11,7 @@ namespace b
 			string simAdicional = Console.ReadLine().Trim().ToLower();
 			
 			// Verificando se a condição e verdadeira ou falsa 
-			if (simAdicional == "açúcar" && simAdicional == "leite") 
+			if (simAdicional == "açúcar" || simAdicional == "leite") 
 			{
 			    Console.WriteLine("Café com adicional sendo preparado!");
 			}
